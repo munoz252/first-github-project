@@ -1,0 +1,16 @@
+import turtle
+wn = turtle.Screen()
+wn.bgcolor("red")
+alex = turtle.Turtle()
+alex.color("black")
+alex.pensize(3)
+alex.speed(1)
+for _ in range(10):
+  alex.forward(150)
+  alex.left(90)
+  alex.forward(75)
+  alex.left(90)
+alex.forward(150)
+alex.left (90)
+alex.forward(75)
+wn.exitonclick()
